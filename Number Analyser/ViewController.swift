@@ -10,9 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var numberTextField: UITextField!
+    @IBOutlet var result: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        numberTextField.becomeFirstResponder()
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +23,23 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func analyseNumber(_ sender: UIButton) {
+        if let _ = numberTextField.text, let number = Int(numberTextField.text!) {
+            var str = ""
+            if NumberAnalyse.isEsoterico(number: number) {
+                str += "É esotérico."
+            }
+            if NumberAnalyse.isCetico(number: number) {
+                str += " É cético."
+            }
+            if NumberAnalyse.isPrimo(number: number) {
+                str += " É primo."
+            }
+            
+            result.text = str
+            if result.isHidden { result.isHidden = false }
+        }
+    }
 
 }
 

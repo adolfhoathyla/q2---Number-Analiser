@@ -14,6 +14,7 @@
 		16D9DE1E1DF3C71A00387E07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D9DE1C1DF3C71A00387E07 /* LaunchScreen.storyboard */; };
 		16D9DE291DF3C71A00387E07 /* Number_AnalyserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D9DE281DF3C71A00387E07 /* Number_AnalyserTests.swift */; };
 		16D9DE341DF3C71A00387E07 /* Number_AnalyserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D9DE331DF3C71A00387E07 /* Number_AnalyserUITests.swift */; };
+		16D9DE421DF3CE4500387E07 /* NumberAnalyse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D9DE411DF3CE4500387E07 /* NumberAnalyse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		16D9DE2F1DF3C71A00387E07 /* Number AnalyserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Number AnalyserUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16D9DE331DF3C71A00387E07 /* Number_AnalyserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Number_AnalyserUITests.swift; sourceTree = "<group>"; };
 		16D9DE351DF3C71A00387E07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16D9DE411DF3CE4500387E07 /* NumberAnalyse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberAnalyse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				16D9DE1A1DF3C71A00387E07 /* Assets.xcassets */,
 				16D9DE1C1DF3C71A00387E07 /* LaunchScreen.storyboard */,
 				16D9DE1F1DF3C71A00387E07 /* Info.plist */,
+				16D9DE411DF3CE4500387E07 /* NumberAnalyse.swift */,
 			);
 			path = "Number Analyser";
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16D9DE161DF3C71A00387E07 /* ViewController.swift in Sources */,
+				16D9DE421DF3CE4500387E07 /* NumberAnalyse.swift in Sources */,
 				16D9DE141DF3C71A00387E07 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
